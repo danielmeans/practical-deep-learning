@@ -33,8 +33,9 @@ Open a notebook and execute a cell containing: 1+1. What happens?
 - The result is 2, from a python3 kernel notebook. 
 
 Follow through each cell of the stripped version of the notebook for this chapter. Before executing each cell, guess what will happen.
-
+- Done
 Complete the Jupyter Notebook online appendix.
+- Completed, so helpful. %debug looks like especially helpful magic 
 
 Why is it hard to use a traditional computer program to recognize images in a photo?
 - Extremely hard. You'd have to teach a program how to recognize each characteristic of an image, like edges, colors, gradients, shapes. 
@@ -45,7 +46,8 @@ What term do we normally use in deep learning for what Samuel called "weights"?
 - Parameters. 
 
 Draw a picture that summarizes Samuel's view of a machine learning model.
-- TO DO
+- Inputs     ->|Architecture| -> |predictions| -> | loss|  -> loss goes back to update parameters
+  parameters ->|            |    |labels|      -> |      |
 
 Why is it hard to understand why a deep learning model makes a particular prediction?
 - It's difficult to determine what part of all the layers, weights, hyper parameters, etc. actually led to that prediction
@@ -60,7 +62,7 @@ How could a feedback loop impact the rollout of a predictive policing model?
 - The model could take in past data, including it's biases. This leads to more policing of people of certain demographics, which the model takes as input, and further reinforces that bias. 
 
 Do we always have to use 224×224-pixel images with the cat recognition model?
-No, we can choose the size of the image. The bigger the size, the more details the model can notice, at the expense of memory consumption.
+-No, we can choose the size of the image. The bigger the size, the more details the model can notice, at the expense of memory consumption.
 
 What is the difference between classification and regression?
 - Classification gives a categorical output whereas regression trys to predict a numeric quantity. 
@@ -107,4 +109,4 @@ What are "hyperparameters"?
 - The are parameters for paramters, high-level parameters that govern the meaining of the weight parameters. 
 
 What's the best way to avoid failures when using AI in an organization?
-Understanding test and validation sets.
+-Understanding test and validation sets.
