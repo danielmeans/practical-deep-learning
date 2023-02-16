@@ -2,6 +2,7 @@ Provide an example of where the bear classification model might work poorly in p
 Where do text models currently have a major deficiency?
 - Text models have a major deficiency in generated factually correct reponses. These models are good at creating compelling answers, but have difficulty combining with a knowledge base to give the right answers.
 What are possible negative societal implications of text generation models?
+- Contextually appropriate compelling comments on social media could be used to spread misinformation on social media at a massice scale. Models that detect AI generated content will also always be slightly behind generative AI models. 
 In situations where a model might make mistakes, and those mistakes could be harmful, what is a good alternative to automating a process?
 What kind of tabular data is deep learning particularly good at?
 What's a key downside of directly using a deep learning model for recommendation systems?
