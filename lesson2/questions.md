@@ -4,6 +4,7 @@ Where do text models currently have a major deficiency?
 What are possible negative societal implications of text generation models?
 - Contextually appropriate compelling comments on social media could be used to spread misinformation on social media at a massice scale. Models that detect AI generated content will also always be slightly behind generative AI models. 
 In situations where a model might make mistakes, and those mistakes could be harmful, what is a good alternative to automating a process?
+- Models should be used in a way that deep learning and humans interact closely. Models should make predictions that support humans, such as detecting potential stroke victims from CT scans and sending an alert to review the scan with high priority. 
 What kind of tabular data is deep learning particularly good at?
 What's a key downside of directly using a deep learning model for recommendation systems?
 What are the steps of the Drivetrain Approach?
