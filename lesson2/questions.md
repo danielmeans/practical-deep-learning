@@ -6,8 +6,14 @@ What are possible negative societal implications of text generation models?
 In situations where a model might make mistakes, and those mistakes could be harmful, what is a good alternative to automating a process?
 - Models should be used in a way that deep learning and humans interact closely. Models should make predictions that support humans, such as detecting potential stroke victims from CT scans and sending an alert to review the scan with high priority. 
 What kind of tabular data is deep learning particularly good at?
+- It's good at high-cardinality categorical columns and columns containing natural language. 
 What's a key downside of directly using a deep learning model for recommendation systems?
+- It might just recommend extremely similar products to what the user already purchased, such that it can even be just different packaging of the same product. 
 What are the steps of the Drivetrain Approach?
+- Define an objective
+- Think about actions that you can take to meet the object
+- What data do you have or can acquire that can help
+- build a model to determine the best actions to achieve the objective
 How do the steps of the Drivetrain Approach map to a recommendation system?
 Create an image recognition model using data you curate, and deploy it on the web.
 What is DataLoaders?
