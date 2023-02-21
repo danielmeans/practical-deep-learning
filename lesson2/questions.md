@@ -15,6 +15,10 @@ What are the steps of the Drivetrain Approach?
 - What data do you have or can acquire that can help
 - build a model to determine the best actions to achieve the objective
 How do the steps of the Drivetrain Approach map to a recommendation system?
+- the objective is to drive additional sales by recommending the right product
+- the lever is the ranking of recommendations
+- collect new data, like by conducting randomized experiments that collect data on recommendations across customers
+- then you could make two models, for the purcharse probabilities with and without a recommendation, and the difference will be the utility fn
 Create an image recognition model using data you curate, and deploy it on the web.
 What is DataLoaders?
 What four things do we need to tell fastai to create DataLoaders?
