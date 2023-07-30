@@ -21,11 +21,20 @@ How do the steps of the Drivetrain Approach map to a recommendation system?
 - then you could make two models, for the purcharse probabilities with and without a recommendation, and the difference will be the utility fn
 Create an image recognition model using data you curate, and deploy it on the web.
 What is DataLoaders?
+- A fastai class that stores the dataloader you pass to it
 What four things do we need to tell fastai to create DataLoaders?
+- kind of data we're working with
+- how to get the data
+- how to label them
+- how to create a validation set
 What does the splitter parameter to DataBlock do?
+- randomly generates train/test splits in the data
 How do we ensure a random split always gives the same validation set?
+- using a random seed, the random split always starts at the same place
 What letters are often used to signify the independent and dependent variables?
+- x: independent, y: dependent
 What's the difference between the crop, pad, and squish resize approaches? When might you choose one over the others?
+- crop will cut out parts of the image beyond the resize value, pad will resize the image to a given size by adding padding, squish will either stretch or squish the image to the appropriate size. They each have issues, crop will lead to lost data, pad will add wasted bits of information and squish will actually chang the image itself. 
 What is data augmentation? Why is it needed?
 What is the difference between item_tfms and batch_tfms?
 What is a confusion matrix?
@@ -38,3 +47,6 @@ What are three examples of problems that could occur when rolling out a bear war
 What is "out-of-domain data"?
 What is "domain shift"?
 What are the three steps in the deployment process?
+
+Notes:
+- Deep learning can improve results on tabular/time series data by supporting high-cardinality categorical columns, like zip-code whereas random forests or gradien boosting algorithms may struggle
